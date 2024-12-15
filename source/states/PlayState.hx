@@ -1195,6 +1195,8 @@ class PlayState extends MusicBeatState
 		if (songName != 'burnt')
 		{
 			creditsPopup.visible = true;
+			creditsPopup.x -= creditsPopup.width;
+			FlxTween.tween(creditsPopup, {x: 5}, 0.3);
 			creditsPopup.disappearTime = 3;
 		}
 

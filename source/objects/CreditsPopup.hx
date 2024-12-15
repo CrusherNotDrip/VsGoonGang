@@ -111,7 +111,7 @@ class CreditsPopup extends FlxSpriteGroup
 
 	function disappear():Void
 	{
-		FlxTween.tween(this, {x: x - (x + bg.width)}, 0.5, {
+		FlxTween.tween(this, {x: x - (x + bg.width)}, 0.3, {
 			onComplete: (twn:FlxTween) ->
 			{
 				this.destroy();
