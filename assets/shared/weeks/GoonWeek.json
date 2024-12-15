@@ -1,0 +1,54 @@
+{
+	"storyName": "Goon Gang",
+	"difficulties": "hard",
+	"hideFreeplay": false,
+	"weekBackground": "goon",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"im edging",
+			"edger",
+			[
+				20,
+				100,
+				255
+			]
+		],
+		[
+			"bonehead",
+			"boner",
+			[
+				160,
+				0,
+				140
+			]
+		],
+		[
+			"tinkle",
+			"pee",
+			[
+				26,
+				40,
+				173
+			]
+		],
+		[
+			"burnt",
+			"burner",
+			[
+				66,
+				173,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "GoonWeek"
+}

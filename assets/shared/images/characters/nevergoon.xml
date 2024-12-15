@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="nevergoon.png">
+<SubTexture name="nevergoon down0000" x="1437" y="0" width="345" height="450" frameX="-30" frameY="-62" frameWidth="447" frameHeight="512" />
+<SubTexture name="nevergoon down0001" x="1092" y="462" width="340" height="458" frameX="-35" frameY="-54" frameWidth="447" frameHeight="512" />
+<SubTexture name="nevergoon up0000" x="0" y="0" width="350" height="512" frameX="-30" frameY="0" frameWidth="447" frameHeight="512" />
+<SubTexture name="nevergoon up0001" x="350" y="0" width="365" height="508" frameX="-18" frameY="-4" frameWidth="447" frameHeight="512" />
+<SubTexture name="nevergoon right0000" x="355" y="975" width="437" height="460" frameX="0" frameY="-52" frameWidth="447" frameHeight="512" />
+<SubTexture name="nevergoon right0001" x="0" y="512" width="427" height="463" frameX="0" frameY="-49" frameWidth="447" frameHeight="512" />
+<SubTexture name="nevergoon left0000" x="1092" y="0" width="345" height="462" frameX="-3" frameY="-50" frameWidth="447" frameHeight="512" />
+<SubTexture name="nevergoon left0001" x="0" y="975" width="355" height="462" frameX="-8" frameY="-50" frameWidth="447" frameHeight="512" />
+<SubTexture name="nevergoon idle0000" x="715" y="0" width="377" height="464" frameX="-38" frameY="-48" frameWidth="447" frameHeight="512" />
+<SubTexture name="nevergoon idle0001" x="427" y="512" width="377" height="463" frameX="-46" frameY="-49" frameWidth="447" frameHeight="512" />
+<SubTexture name="nevergoon idle0002" x="792" y="975" width="373" height="458" frameX="-52" frameY="-54" frameWidth="447" frameHeight="512" />
+<SubTexture name="nevergoon idle0003" x="1782" y="0" width="375" height="450" frameX="-60" frameY="-62" frameWidth="447" frameHeight="512" />
+<SubTexture name="nevergoon idle0004" x="0" y="1437" width="386" height="445" frameX="-61" frameY="-67" frameWidth="447" frameHeight="512" />
+</TextureAtlas>

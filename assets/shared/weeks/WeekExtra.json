@@ -1,0 +1,54 @@
+{
+	"storyName": "extra shit",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Slurp",
+			"freaker",
+			[
+				215,
+				193,
+				123
+			]
+		],
+		[
+			"Daniel My Beloved",
+			"daniel",
+			[
+				246,
+				153,
+				115
+			]
+		],
+		[
+			"abstinence",
+			"minion",
+			[
+				160,
+				180,
+				55
+			]
+		],
+		[
+			"infinibeaner",
+			"pee",
+			[
+				20,
+				60,
+				255
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "WeekExtra",
+	"hiddenUntilUnlocked": false
+}

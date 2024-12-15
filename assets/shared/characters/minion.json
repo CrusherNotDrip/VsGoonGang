@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				200
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "nevergoon idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				196
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "nevergoon down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				199
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "nevergoon up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				199
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "nevergoon left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				4,
+				200
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "nevergoon right",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/nevergoon",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "minion",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		218,
+		0
+	],
+	"camera_position": [
+		-150,
+		-350
+	],
+	"sing_duration": 4,
+	"scale": 1.4,
+	"_editor_isPlayer": false
+}

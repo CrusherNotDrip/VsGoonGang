@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "BF idle dance"
+		},
+		{
+			"offsets": [
+				-20,
+				-51
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BF NOTE DOWN0"
+		},
+		{
+			"offsets": [
+				4,
+				27
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "BF NOTE UP0"
+		},
+		{
+			"offsets": [
+				-3,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "BF HEY"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				-6
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF NOTE RIGHT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-42,
+				-7
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF NOTE LEFT0",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/fnfburner73",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "burner",
+	"flip_x": true,
+	"healthbar_colors": [
+		133,
+		199,
+		136
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}
