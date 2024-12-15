@@ -1193,12 +1193,7 @@ class PlayState extends MusicBeatState
 		startingSong = false;
 
 		if (songName != 'burnt')
-		{
-			creditsPopup.visible = true;
-			creditsPopup.x -= creditsPopup.width;
-			FlxTween.tween(creditsPopup, {x: 5}, 0.3);
-			creditsPopup.disappearTime = 3;
-		}
+			showCredits(0.2);
 
 		@:privateAccess
 		FlxG.sound.playMusic(inst._sound, 1, false);
@@ -1225,6 +1220,14 @@ class PlayState extends MusicBeatState
 		#end
 		setOnScripts('songLength', songLength);
 		callOnScripts('onSongStart');
+	}
+
+	function showCredits(time:Float = 0.1):Void
+	{
+		creditsPopup.visible = true;
+		creditsPopup.x -= creditsPopup.width;
+		FlxTween.tween(creditsPopup, {x: 5}, time);
+		creditsPopup.disappearTime = 3;
 	}
 
 	var debugNum:Int = 0;
@@ -3020,8 +3023,7 @@ class PlayState extends MusicBeatState
 
 		if (songName == 'burnt' && curStep == 128)
 		{
-			creditsPopup.visible = true;
-			creditsPopup.disappearTime = 3;
+			showCredits(0.2);
 		}
 
 		lastStepHit = curStep;

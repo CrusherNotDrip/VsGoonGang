@@ -102,19 +102,19 @@ class CreditsPopup extends FlxSpriteGroup
 		{
 			disappearTmr = new FlxTimer().start(value, (tmr:FlxTimer) ->
 			{
-				disappear();
+				disappear(0.2);
 			});
 		}
 
 		return disappearTime = value;
 	}
 
-	function disappear():Void
+	function disappear(time:Float = 0.2):Void
 	{
-		FlxTween.tween(this, {x: x - (x + bg.width)}, 0.3, {
+		FlxTween.tween(this, {x: x - (x + bg.width)}, 0.2, {
 			onComplete: (twn:FlxTween) ->
 			{
-				this.destroy();
+				destroy();
 			}
 		});
 	}
